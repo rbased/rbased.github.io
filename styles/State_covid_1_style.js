@@ -17,8 +17,8 @@ var style_State_covid_1 = function(feature, resolution){
     var offsetX = 8;
     var offsetY = 3;
     var placement = 'point';
-    if (feature.get("State") !== null) {
-        labelText = String(feature.get("State"));
+    if ("" !== null) {
+        labelText = String("");
     }
     if (value >= 0.000000 && value <= 59.400000) {
             style = [ new ol.style.Style({
