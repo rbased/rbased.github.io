@@ -25,21 +25,16 @@ var lyr_State_covid_1 = new ol.layer.Vector({
                 style: style_State_covid_1,
                 interactive: true,
     title: 'State_covid<br />\
-    <img src="styles/legend/State_covid_1_0.png" /> 0 - 59 <br />\
-    <img src="styles/legend/State_covid_1_1.png" /> 59 - 119 <br />\
-    <img src="styles/legend/State_covid_1_2.png" /> 119 - 178 <br />\
-    <img src="styles/legend/State_covid_1_3.png" /> 178 - 238 <br />\
-    <img src="styles/legend/State_covid_1_4.png" /> 238 - 297 <br />\
-    <img src="styles/legend/State_covid_1_5.png" /> 297 - 356 <br />\
-    <img src="styles/legend/State_covid_1_6.png" /> 356 - 416 <br />\
-    <img src="styles/legend/State_covid_1_7.png" /> 416 - 475 <br />\
-    <img src="styles/legend/State_covid_1_8.png" /> 475 - 535 <br />\
-    <img src="styles/legend/State_covid_1_9.png" /> 535 - 594 <br />\
-    <img src="styles/legend/State_covid_1_10.png" /> 594 - 653 <br />\
-    <img src="styles/legend/State_covid_1_11.png" /> 653 - 713 <br />\
-    <img src="styles/legend/State_covid_1_12.png" /> 713 - 772 <br />\
-    <img src="styles/legend/State_covid_1_13.png" /> 772 - 832 <br />\
-    <img src="styles/legend/State_covid_1_14.png" /> 832 - 891 <br />'
+    <img src="styles/legend/State_covid_1_0.png" /> 0 - 0 <br />\
+    <img src="styles/legend/State_covid_1_1.png" /> 0 - 50 <br />\
+    <img src="styles/legend/State_covid_1_2.png" /> 50 - 100 <br />\
+    <img src="styles/legend/State_covid_1_3.png" /> 100 - 175 <br />\
+    <img src="styles/legend/State_covid_1_4.png" /> 175 - 250 <br />\
+    <img src="styles/legend/State_covid_1_5.png" /> 250 - 350 <br />\
+    <img src="styles/legend/State_covid_1_6.png" /> 350 - 500 <br />\
+    <img src="styles/legend/State_covid_1_7.png" /> 500 - 700 <br />\
+    <img src="styles/legend/State_covid_1_8.png" /> 700 - 1000 <br />\
+    <img src="styles/legend/State_covid_1_9.png" /> 1000 +<br />'
         });
 
 lyr_googleImageries_0.setVisible(true);lyr_State_covid_1.setVisible(true);
