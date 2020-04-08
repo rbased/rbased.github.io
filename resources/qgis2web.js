@@ -87,7 +87,7 @@ layerSwitcher.showPanel();
     .getElementsByTagName('button')[0].className +=
     ' fa fa-binoculars';
     
-map.getView().fit([6502775.604735, 627881.865702, 11795504.228209, 4504780.928302], map.getSize());
+map.getView().fit([6468407.237050, 705634.081470, 11761135.860524, 4602670.211511], map.getSize());
 
 var NO_POPUP = 0
 var ALL_FIELDS = 1
@@ -620,12 +620,15 @@ map.on("rendercomplete", function(evt) {
         var attributionList = attribution.getElementsByTagName('ul')[0];
         var firstLayerAttribution = attributionList.getElementsByTagName('li')[0];
         var qgis2webAttribution = document.createElement('li');
-        qgis2webAttribution.innerHTML = '<a href="https://github.com/tomchadwin/qgis2web">qgis2web</a> &middot; ';
+        qgis2webAttribution.innerHTML = '<a href="http://rbasedservices.com">RBasedServices</a> &middot; ';
         var olAttribution = document.createElement('li');
         olAttribution.innerHTML = '<a href="https://openlayers.org/">OpenLayers</a> &middot; ';
         var qgisAttribution = document.createElement('li');
         qgisAttribution.innerHTML = '<a href="https://qgis.org/">QGIS</a>';
+		        var qgis22webAttribution = document.createElement('li');
+        qgis22webAttribution.innerHTML = '<a href="https://github.com/tomchadwin/qgis2web">qgis2web</a> &middot; ';
         attributionList.insertBefore(qgis2webAttribution, firstLayerAttribution);
+		attributionList.insertBefore(qgis22webAttribution, firstLayerAttribution);
         attributionList.insertBefore(olAttribution, firstLayerAttribution);
         attributionList.insertBefore(qgisAttribution, firstLayerAttribution);
         attributionComplete = true;
