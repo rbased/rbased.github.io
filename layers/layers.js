@@ -24,7 +24,7 @@ var lyr_State_covid_1 = new ol.layer.Vector({
                 source:jsonSource_State_covid_1, 
                 style: style_State_covid_1,
                 interactive: true,
-    title: 'State_covid<br />\
+    title: 'Confirmed Cases<br />\
     <img src="styles/legend/State_covid_1_0.png" /> 0 - 0 <br />\
     <img src="styles/legend/State_covid_1_1.png" /> 0 - 50 <br />\
     <img src="styles/legend/State_covid_1_2.png" /> 50 - 100 <br />\
